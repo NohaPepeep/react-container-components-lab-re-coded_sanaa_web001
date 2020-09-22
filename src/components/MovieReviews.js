@@ -5,8 +5,7 @@ const MovieReviews = (props) =>
       {props.reviews.map(movie => {
           return <div className="review" key={movie.display_title}>
                 <a href={movie.link.url}>{movie.headline}</a>
-                <p>By: {movie.byline}</p>
-                <hr></hr>
+                {movie.byline}
             </div>
       })}
   </div>
