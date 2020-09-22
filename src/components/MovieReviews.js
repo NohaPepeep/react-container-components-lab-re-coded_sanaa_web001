@@ -9,7 +9,7 @@ const Review = ({a,b,c,d}) => {
         <a className="review-link" href={link.url}>
           {a}
         </a>
-        <span className="author">{byline}</span>
+        <span className="author">{b}</span>
       </header>
       <blockquote>{summary_short}</blockquote>
     </div>
