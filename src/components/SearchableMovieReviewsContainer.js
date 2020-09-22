@@ -22,7 +22,6 @@ class SearchableMovieReviewsContainer extends Component {
         .then(movies => {
             this.setState({
                 reviews: movies.results, 
-                searchTerm: ""
             })
         })
         .catch(error => alert(error.message))
