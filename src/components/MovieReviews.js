@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-const Review = ({headline,byline,link,summary_short}) => {
+const Review = ({a,b,c,d}) => {
   return (
 
     <div key={headline} className="review">
