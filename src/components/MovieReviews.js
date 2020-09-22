@@ -4,10 +4,10 @@ import React from 'react';
 const Review = ({a,b,c,d}) => {
   return (
 
-    <div key={headline} className="review">
+    <div className="review">
       <header>
         <a className="review-link" href={link.url}>
-          {headline}
+          {a}
         </a>
         <span className="author">{byline}</span>
       </header>
