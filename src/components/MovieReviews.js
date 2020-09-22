@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-const Review = ({a,b,c,d}) => {
+const Review = ({a,b,c}) => {
   return (
 
     <div className="review">
@@ -11,7 +11,7 @@ const Review = ({a,b,c,d}) => {
         </a>
         <span className="author">{b}</span>
       </header>
-      <blockquote>{summary_short}</blockquote>
+      
     </div>
   );
 };
