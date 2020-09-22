@@ -1,17 +1,17 @@
 
 import React from 'react';
 
-const Review = ({a,b,c}) => {
+const Review = ({headline,byline,link,summary_short}) => {
   return (
 
-    <div key={a} className="review">
+    <div key={headline} className="review">
       <header>
-        <a className="review-link" href={c.url}>
-          {a}
+        <a className="review-link" href={link.url}>
+          {headline}
         </a>
-        <span className="author">{b}</span>
+        <span className="author">{byline}</span>
       </header>
-      
+      <blockquote>{summary_short}</blockquote>
     </div>
   );
 };
