@@ -6,7 +6,7 @@ const Review = ({a,b,c,d}) => {
 
     <div className="review">
       <header>
-        <a className="review-link" href={link.url}>
+        <a className="review-link" href={c.url}>
           {a}
         </a>
         <span className="author">{b}</span>
